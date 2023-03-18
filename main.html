@@ -26,13 +26,15 @@ td {
 }
 </style>
 </head>
-  <body>
-    <section class="container">
+<body>
+<section class="container">
   <h1>Автозаполнение</h1>
   <label for="city">Город / населенный пункт:</label><input id="city" name="city" type="text" />
   <br><br>
   <label for="address">Улица, дом, квартира:</label><input id="address" name="address" type="text" />
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/suggestions-jquery@17.10.0/dist/js/jquery.suggestions.min.js"></script>
  <script>
 var token = "4d943117cc0149cae4df597487131f749da3301b";
 
@@ -90,7 +92,5 @@ iplocate().done(function(response) {
 });
 
 </script>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/suggestions-jquery@17.10.0/dist/js/jquery.suggestions.min.js"></script>
     <body>
 </html>
